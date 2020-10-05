@@ -13,16 +13,18 @@ import java.io.InputStream;
 public class Editor extends JFrame {
     public  JTextPane textPane = new JTextPane();
     public JFileChooser fileChooser = new JFileChooser();
+
     public Editor(){
         super("text editor");
         Action[] actions={
-                new NewAction(textPane),
+                new NewAction(textPane,fileChooser,Editor.this),
                 new OpenAction(textPane,fileChooser,Editor.this)
 //                new CopyAction(),new CutAction(),
 //                new PasteAction()
         };
         setJMenuBar(createJMenuBar(actions));
-        Container container=new Container();
+
+        Container container=getContentPane();
         container.add(textPane,BorderLayout.CENTER);
         setSize(700,700);
         setVisible(true);
@@ -33,6 +35,7 @@ public class Editor extends JFrame {
             JMenu menuEdior=new JMenu("Editor");
             JMenu menuAbout = new JMenu("About");
             menuFile.add(new JMenuItem(actions[0]));
+            menuFile.add(new JMenuItem(actions[1]));
 
             menuBar.add(menuFile);
             menuBar.add(menuAbout);
