@@ -16,8 +16,8 @@ public class Editor extends JFrame {
     public Editor(){
         super("text editor");
         Action[] actions={
-                new NewAction(textPane)
-                //nee OpenAction(textPane)
+                new NewAction(textPane),
+                new OpenAction(textPane,fileChooser,Editor.this)
 //                new CopyAction(),new CutAction(),
 //                new PasteAction()
         };
