@@ -24,6 +24,8 @@ public class Editor extends JFrame {
         setJMenuBar(createJMenuBar(actions));
         Container container=new Container();
         container.add(textPane,BorderLayout.CENTER);
+        setSize(700,700);
+        setVisible(true);
         }
         private JMenuBar createJMenuBar(Action[] actions){
             JMenuBar menuBar=new JMenuBar();
@@ -31,14 +33,17 @@ public class Editor extends JFrame {
             JMenu menuEdior=new JMenu("Editor");
             JMenu menuAbout = new JMenu("About");
             menuFile.add(new JMenuItem(actions[0]));
-            menuFile.add(new JMenuItem(actions[1]));
-            menuFile.add(new JMenuItem(actions[2]));
+
             menuBar.add(menuFile);
             menuBar.add(menuAbout);
             menuBar.add(menuEdior);
             return menuBar;
         }
 
+    public static void main(String[] args) {
+        new Editor();
+
+    }
 
     }
 
