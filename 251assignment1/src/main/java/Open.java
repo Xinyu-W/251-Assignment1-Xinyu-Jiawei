@@ -8,10 +8,10 @@ public class Open extends AbstractAction{
     private JTextPane textPane;
     private JFileChooser filechooser;
     private Editor editor;
-    public Open(JTextPane textPane, JFileChooser fileChooser,Editor editor) {
+    public Open(JTextPane textPane, JFileChooser filechooser,Editor editor) {
         super("Open     Ctrl+O");
         this.textPane = textPane;
-        this.filechooser = fileChooser;
+        this.filechooser = filechooser;
         this.editor=editor;
     }
 

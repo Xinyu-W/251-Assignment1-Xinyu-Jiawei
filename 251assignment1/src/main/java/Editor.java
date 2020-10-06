@@ -19,7 +19,7 @@ public class Editor extends JFrame {
         Action[] actions={
                 new New(textPane,fileChooser,Editor.this),
                 new Open(textPane,fileChooser,Editor.this),
-                new Save(textPane,fileChooser,Editor.this)
+                new Save(textPane,fileChooser)
 //                new CopyAction(),new CutAction(),
 //                new PasteAction()
         };
@@ -46,7 +46,6 @@ public class Editor extends JFrame {
 
     public static void main(String[] args) {
         new Editor();
-
     }
 
     }
