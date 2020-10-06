@@ -19,7 +19,7 @@ public class Editor extends JFrame {
         Action[] actions={
                 new New(textPane,fileChooser,Editor.this),
                 new Open(textPane,fileChooser,Editor.this),
-                new Save()
+                new Save(textPane,fileChooser,Editor.this)
 //                new CopyAction(),new CutAction(),
 //                new PasteAction()
         };
@@ -37,7 +37,7 @@ public class Editor extends JFrame {
             JMenu menuAbout = new JMenu("About");
             menuFile.add(new JMenuItem(actions[0]));
             menuFile.add(new JMenuItem(actions[1]));
-
+            menuFile.add(new JMenuItem(actions[2]));
             menuBar.add(menuFile);
             menuBar.add(menuAbout);
             menuBar.add(menuEdior);
