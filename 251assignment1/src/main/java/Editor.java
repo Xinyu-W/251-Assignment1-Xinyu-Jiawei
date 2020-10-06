@@ -19,7 +19,8 @@ public class Editor extends JFrame {
         Action[] actions={
                 new New(textPane,fileChooser,Editor.this),
                 new Open(textPane,fileChooser,Editor.this),
-                new Save(textPane,fileChooser)
+                new Save(textPane,fileChooser),
+                new Search()
 //                new CopyAction(),new CutAction(),
 //                new PasteAction()
         };
