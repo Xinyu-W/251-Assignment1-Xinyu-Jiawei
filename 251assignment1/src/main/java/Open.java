@@ -13,6 +13,7 @@ public class Open extends AbstractAction{
         this.textPane = textPane;
         this.filechooser = filechooser;
         this.editor=editor;
+        filechooser.setDialogTitle("Open");
     }
 
     public void actionPerformed(ActionEvent e) {

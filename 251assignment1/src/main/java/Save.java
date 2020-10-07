@@ -12,6 +12,7 @@ public class Save extends AbstractAction {
         super("Save     Ctrl+S");
         this.textPane = textPane;
         this.filechooser = filechooser;
+        filechooser.setDialogTitle("Save");
     }
     public void actionPerformed(ActionEvent e) {
         int option = filechooser.showSaveDialog(null);
