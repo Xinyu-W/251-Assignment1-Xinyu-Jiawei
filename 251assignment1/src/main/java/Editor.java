@@ -46,6 +46,7 @@ public class Editor extends JFrame {
             menuBar.add(menuFile);
             menuBar.add(menuEdior);
             menuBar.add(menuView);
+            menuAbout.add(new JMenuItem(new Author(Editor.this)));
             menuBar.add(menuAbout);
             return  menuBar;
         }
