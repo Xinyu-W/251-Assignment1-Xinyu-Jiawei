@@ -1,4 +1,6 @@
 import javax.print.*;
+import javax.print.attribute.DocAttributeSet;
+import javax.print.attribute.HashDocAttributeSet;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttribute;
 import javax.print.attribute.standard.Copies;
@@ -20,20 +22,34 @@ public class Print extends AbstractAction {
     }
     public void actionPerformed(ActionEvent e) {
         int i = filechooser.showOpenDialog(editor);//显示打开文件对话框
+
         if (i == JFileChooser.APPROVE_OPTION) {
             File f = filechooser.getSelectedFile();
-            FileInputStream fileInputStream = null;
-            try {
-                fileInputStream = new FileInputStream(f);
-            } catch (FileNotFoundException fileNotFoundException) {
-                fileNotFoundException.printStackTrace();
-            }
-            if (fileInputStream==null){return;}
+
             DocFlavor docFlavor=DocFlavor.INPUT_STREAM.AUTOSENSE;
+
             HashPrintRequestAttributeSet requestAttribute=new HashPrintRequestAttributeSet();
+
             PrintService printServices[]= PrintServiceLookup.lookupPrintServices(docFlavor,requestAttribute);
+
             PrintService printService= PrintServiceLookup.lookupDefaultPrintService();
-            PrintService printService1=ServiceUI.printDialog(null,250,250,printServices,printService,docFlavor,requestAttribute)
+
+            PrintService printService1=ServiceUI.printDialog(null,250,250,printServices,printService,docFlavor,requestAttribute);
+            if (printService1!=null){
+                try {
+                    DocPrintJob docPrintJob=printService1.createPrintJob();
+                    FileInputStream fileInputStream = new FileInputStream(f);
+                    DocAttributeSet docAttributeSet=new HashDocAttributeSet();
+                    Doc doc=new SimpleDoc(fileInputStream,docFlavor,docAttributeSet);
+                    docPrintJob.print(doc,requestAttribute);
+                } catch (FileNotFoundException fileNotFoundException) {
+                    fileNotFoundException.printStackTrace();
+                } catch (PrintException printException) {
+                    printException.printStackTrace();
+                }
+
+
+            }
 
 
 
