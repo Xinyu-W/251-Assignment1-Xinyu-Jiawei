@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 public class Author extends AbstractAction {
-    private Editor editor;
+    private final Editor editor;
     public Author(Editor editor){
         super("Author");
         this.editor=editor;
