@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 public class Author extends AbstractAction {
     private final Editor editor;
     public Author(Editor editor){
-        super("Author");
+        super("Author ");
         this.editor=editor;
     }
     public void actionPerformed(ActionEvent e) {
