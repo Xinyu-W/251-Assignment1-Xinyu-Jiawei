@@ -8,7 +8,7 @@ import java.io.InputStream;
 
 public class New extends AbstractAction	//新建
 {
-    private JTextPane textPane;
+    private final JTextPane textPane;
     private JFileChooser filechooser;
     private Editor editor;
     public New(JTextPane textPane,JFileChooser filechooser,Editor editor)
@@ -17,6 +17,7 @@ public class New extends AbstractAction	//新建
         this.textPane=textPane;
         this.filechooser = filechooser;
         this.editor=editor;
+        filechooser.setDialogTitle("New");
     }
     public void actionPerformed(ActionEvent e)
     {

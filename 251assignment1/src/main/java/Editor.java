@@ -1,13 +1,5 @@
-
-import com.sun.jmx.mbeanserver.JmxMBeanServer;
-
 import javax.swing.*;
-import javax.swing.text.DefaultStyledDocument;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
 import java.text.DateFormat;
 
 
@@ -46,6 +38,7 @@ public class Editor extends JFrame {
             menuBar.add(menuFile);
             menuBar.add(menuEdior);
             menuBar.add(menuView);
+            menuAbout.add(new JMenuItem(new Author(Editor.this)));
             menuBar.add(menuAbout);
             return  menuBar;
         }
