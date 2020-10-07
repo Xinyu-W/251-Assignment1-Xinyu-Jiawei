@@ -20,7 +20,7 @@ public class Editor extends JFrame {
                 new New(textPane,fileChooser,Editor.this),
                 new Open(textPane,fileChooser,Editor.this),
                 new Save(textPane,fileChooser),
-                new Search()
+//                new Search()
 //                new CopyAction(),new CutAction(),
 //                new PasteAction()
         };
