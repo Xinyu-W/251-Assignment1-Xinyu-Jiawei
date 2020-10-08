@@ -13,7 +13,7 @@ public class Search extends AbstractAction {
     }
 
     public void actionPerformed(ActionEvent e) {
-        final JDialog findDialog = new JDialog(editor, "查找", false);//false时允许其他窗口同时处于激活状态(即无模式)
+        final JDialog findDialog = new JDialog(this.editor, "查找", false);//false时允许其他窗口同时处于激活状态(即无模式)
         Container con = findDialog.getContentPane();//返回此对话框的contentPane对象
         con.setLayout(new FlowLayout(FlowLayout.LEFT));
         JLabel findContentLabel = new JLabel("查找内容(N)：");
