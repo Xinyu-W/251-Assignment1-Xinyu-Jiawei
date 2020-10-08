@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 
 
-public class New extends AbstractAction	//新建
+public class New extends AbstractAction	//New
 {
     private final JTextPane textPane;
     private JFileChooser filechooser;

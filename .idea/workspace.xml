@@ -13,15 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="10/8 commit xinyu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExportPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExportPDF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/New.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/New.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Open.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Open.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Save.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="maven setting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -414,10 +406,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="862" y="100" width="581" height="630" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601795334382" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602161266693">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602168201867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602161266693" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602168201867" />
     <state x="496" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602160308312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

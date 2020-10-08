@@ -43,7 +43,7 @@ public class ExportPDF extends AbstractAction {
             documentException.printStackTrace();
         }
         document.open();
-        //方法一：使用Windows系统字体(TrueType)
+//font
         BaseFont baseFont = null;
         try {
             baseFont = BaseFont.createFont(FONT, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);

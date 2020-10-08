@@ -22,8 +22,7 @@ public class Print extends AbstractAction {
 
     }
     public void actionPerformed(ActionEvent e) {
-        int i = filechooser.showOpenDialog(editor);//显示打开文件对话框
-
+        int i = filechooser.showOpenDialog(editor);
         if (i == JFileChooser.APPROVE_OPTION) {
             File f = filechooser.getSelectedFile();
 
