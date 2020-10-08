@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>Xinyu_And_Jiawei</groupId>
+    <artifactId>251assignment1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!-- https://mvnrepository.com/artifact/com.wujing.jframe/jframe -->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/clojure-interop/javax.swing -->
+        <dependency>
+            <groupId>clojure-interop</groupId>
+            <artifactId>javax.swing</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/clojure-interop/java.awt -->
+        <dependency>
+            <groupId>clojure-interop</groupId>
+            <artifactId>java.awt</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+
+
+    </dependencies>
+
+
+</project>
