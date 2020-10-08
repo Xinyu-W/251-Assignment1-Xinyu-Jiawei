@@ -14,12 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="maven setting">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/251-Assignment1-Xinyu-Jiawei.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/251assignment1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExportPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExportPDF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +74,12 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -114,15 +117,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Editor" />
-        <item itemvalue="Application.Editor" />
-        <item itemvalue="Application.Editor" />
-        <item itemvalue="Application.Editor" />
-        <item itemvalue="Application.Editor" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -359,10 +353,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1601992364554" />
-    <state x="926" y="149" key="FileChooserDialogImpl" timestamp="1602125637286">
+    <state x="926" y="149" key="FileChooserDialogImpl" timestamp="1602158440544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="926" y="149" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602125637286" />
+    <state x="926" y="149" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602158440544" />
     <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1602124539394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -383,10 +377,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="296" y="135" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1602125774006" />
-    <state x="166" y="0" width="1038" height="788" key="SettingsEditor" timestamp="1602126104250">
+    <state x="536" y="132" key="RollbackChangesDialog" timestamp="1602158217700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="166" y="0" width="1038" height="788" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602126104250" />
+    <state x="536" y="132" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602158217700" />
+    <state x="166" y="0" width="1038" height="788" key="SettingsEditor" timestamp="1602158819101">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="166" y="0" width="1038" height="788" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602158819101" />
     <state x="862" y="100" width="581" height="630" key="VCS.FileHistoryDialog" timestamp="1601795334382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
