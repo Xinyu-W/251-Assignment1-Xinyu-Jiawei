@@ -11,28 +11,54 @@ import com.lowagie.text.pdf.PdfWriter;
 
 public class ExportPDF extends AbstractAction {
     private JFileChooser filechooser;
-
-    public ExportPDF(JFileChooser fileChooser) {
-        this.filechooser = fileChooser;
-        fileChooser.setDialogTitle("Export to PDF");
-        fileChooser.setApproveButtonToolTipText("Save");
+    private JTextPane jTextPane;
+    private JScrollPane jScrollBar;
+    private static final String FONT = "C:\\Windows\\Fonts\\simhei.ttf";
+    public ExportPDF(JTextPane jTextPane,JScrollPane jScrollBar) {
+        super("Export");
+        this.filechooser = new JFileChooser("F:\\");
+        filechooser.setDialogTitle("export");
+        this.jTextPane=jTextPane;
+        this.jScrollBar=jScrollBar;
     }
 
     public void actionPerformed(ActionEvent e) {
+        JTextPane edit_text_area;
+        JScrollPane scroll_bar;
+        File file = null;
         int chooser = filechooser.showSaveDialog(null);
         if (chooser == JFileChooser.APPROVE_OPTION) {
-            File file = filechooser.getSelectedFile();
-            String path = file.getAbsolutePath();
-            try {
-                OutputStream os = new FileOutputStream(new File(path + ".pdf"));
-            } catch (FileNotFoundException fileNotFoundException) {
-                fileNotFoundException.printStackTrace();
-            }
-
-
+            file = filechooser.getSelectedFile();
         }
-        Document document=new Document();
-
-
+        Document document = new Document();
+        OutputStream os = null;
+        try {
+            os = new FileOutputStream(new File(file.getAbsolutePath()+".pdf"));
+        } catch (FileNotFoundException fileNotFoundException) {
+            fileNotFoundException.printStackTrace();
+        }
+        try {
+            PdfWriter.getInstance(document, os);
+        } catch (DocumentException documentException) {
+            documentException.printStackTrace();
+        }
+        document.open();
+        //方法一：使用Windows系统字体(TrueType)
+        BaseFont baseFont = null;
+        try {
+            baseFont = BaseFont.createFont(FONT, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+        } catch (DocumentException documentException) {
+            documentException.printStackTrace();
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
+        Font font = new Font(baseFont);
+        try {
+            document.add(new Paragraph(jTextPane.getText(), font));
+        } catch (DocumentException documentException) {
+            documentException.printStackTrace();
+        }
+        document.close();
     }
 }
+

@@ -1,3 +1,5 @@
+import javafx.stage.FileChooser;
+
 import javax.swing.*;
 import javax.swing.text.DefaultStyledDocument;
 import java.awt.event.ActionEvent;
@@ -16,9 +18,9 @@ public class New extends AbstractAction	//新建
     {
         super("New     Ctrl+N");
         this.textPane=textPane;
-        this.filechooser = filechooser;
+        this.filechooser = new JFileChooser();
         this.editor=editor;
-        filechooser.setDialogTitle("New");
+        this.filechooser.setDialogTitle("New");
     }
     public void actionPerformed(ActionEvent e)
     {

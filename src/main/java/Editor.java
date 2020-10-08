@@ -6,6 +6,7 @@ import java.text.DateFormat;
 public class Editor extends JFrame {
     public  JTextPane textPane = new JTextPane();
     public JFileChooser fileChooser = new JFileChooser();
+    public JScrollPane jScrollPane=new JScrollPane();
     public JTextField SearchText = new JTextField(20);
     public Editor(){
 
@@ -30,7 +31,7 @@ public class Editor extends JFrame {
             menuFile.add(new JMenuItem(new Open(textPane,fileChooser,Editor.this)));
             menuFile.add(new JMenuItem(new Save(textPane,fileChooser)));
             menuFile.add(new JMenuItem(new Print(fileChooser,Editor.this)));
-            menuFile.add(new JMenuItem(new ExportPDF(fileChooser)));
+            menuFile.add(new JMenuItem(new ExportPDF(textPane,jScrollPane)));
             menuFile.add(new JMenuItem(new Exit(Editor.this)));
 
             menuEdior.add(new JMenuItem(new Copy(textPane,Editor.this)));

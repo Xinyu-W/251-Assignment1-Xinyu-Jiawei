@@ -11,9 +11,9 @@ public class Open extends AbstractAction{
     public Open(JTextPane textPane, JFileChooser filechooser,Editor editor) {
         super("Open     Ctrl+O");
         this.textPane = textPane;
-        this.filechooser = filechooser;
+        this.filechooser = new JFileChooser();
         this.editor=editor;
-        filechooser.setDialogTitle("Open");
+        this.filechooser.setDialogTitle("Open");
     }
 
     public void actionPerformed(ActionEvent e) {

@@ -11,8 +11,8 @@ public class Save extends AbstractAction {
     public Save(JTextPane textPane, JFileChooser filechooser){
         super("Save     Ctrl+S");
         this.textPane = textPane;
-        this.filechooser = filechooser;
-        filechooser.setDialogTitle("Save");
+        this.filechooser = new JFileChooser();
+        this.filechooser.setDialogTitle("Save");
     }
     public void actionPerformed(ActionEvent e) {
         int option = filechooser.showSaveDialog(null);

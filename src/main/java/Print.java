@@ -16,9 +16,9 @@ public class Print extends AbstractAction {
     private Editor editor;
     public Print(JFileChooser filechooser,Editor editor){
         super("Print");
-        this.filechooser=filechooser;
+        this.filechooser = new JFileChooser();
         this.editor=editor;
-        filechooser.setDialogTitle("Print");
+        this.filechooser.setDialogTitle("Print");
 
     }
     public void actionPerformed(ActionEvent e) {
