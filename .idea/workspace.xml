@@ -13,15 +13,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="maven setting">
-      <change afterPath="$PROJECT_DIR$/.idea/251-Assignment1-Xinyu-Jiawei.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="test change">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/251assignment1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExportPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExportPDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Search.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +73,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/lowagie/itext/2.1.7" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.rmicompiler" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -117,6 +115,11 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Editor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -281,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602084294654</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="test change">
+      <created>1602158842404</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602158842404</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -330,7 +340,8 @@
     <MESSAGE value="Add Author" />
     <MESSAGE value="jar commit" />
     <MESSAGE value="10/7 final commit.add a part of ExportPDF,but not finished.&#10;Add some maven dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="10/7 final commit.add a part of ExportPDF,but not finished.&#10;Add some maven dependencies." />
+    <MESSAGE value="test change" />
+    <option name="LAST_COMMIT_MESSAGE" value="test change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601890165242">
@@ -345,6 +356,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1602080877378" />
+    <state x="568" y="141" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1602160692572">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="568" y="141" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1602160692572" />
     <state x="544" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602124045619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -353,26 +368,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1601992364554" />
-    <state x="926" y="149" key="FileChooserDialogImpl" timestamp="1602158440544">
+    <state x="700" y="117" key="FileChooserDialogImpl" timestamp="1602160660423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="926" y="149" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602158440544" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1602124539394">
+    <state x="700" y="117" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602160660423" />
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1602159403354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602124539394" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1602124539394">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602159403354" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1602159403353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602124539394" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1602124539394">
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602159403353" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1602159403353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602124539394" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1602124539394">
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602159403353" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1602159403354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602124539394" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602159403354" />
     <state x="296" y="135" key="Maven.ArtifactSearchDialog" timestamp="1602125774006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -381,22 +396,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="132" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602158217700" />
-    <state x="166" y="0" width="1038" height="788" key="SettingsEditor" timestamp="1602158819101">
+    <state x="218" y="36" width="1038" height="788" key="SettingsEditor" timestamp="1602160982981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="166" y="0" width="1038" height="788" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602158819101" />
+    <state x="218" y="36" width="1038" height="788" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602160982981" />
     <state x="862" y="100" width="581" height="630" key="VCS.FileHistoryDialog" timestamp="1601795334382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="862" y="100" width="581" height="630" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601795334382" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602135502619">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602158854925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602135502619" />
-    <state x="496" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602123754981">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602158854925" />
+    <state x="496" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602160308312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1602123754981" />
+    <state x="496" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1602160308312" />
     <state x="538" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601902404837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
