@@ -6,18 +6,24 @@ public class ReadJson {
     public static String readJsonFile(String fileName) {
         String jsonStr = "";
         try {
-            File jsonFile = new File(fileName);
-            FileReader fileReader = new FileReader(jsonFile);
-            Reader reader = new InputStreamReader(new FileInputStream(jsonFile),"utf-8");
-            int ch = 0;
-            StringBuffer sb = new StringBuffer();
-            while ((ch = reader.read()) != -1) {
-                sb.append((char) ch);
+            File file = new File(fileName);
+
+            FileReader fileReader = new FileReader(file);
+
+            Reader reader = new InputStreamReader(new FileInputStream(file),"utf-8");
+
+            int counter = 0;
+            StringBuffer stringBuffer = new StringBuffer();
+
+            while ((counter = reader.read()) != -1) {
+                stringBuffer.append((char) counter);
             }
-            fileReader.close();
+
             reader.close();
-            jsonStr = sb.toString();
+            fileReader.close();
+            jsonStr = stringBuffer.toString();
             return jsonStr;
+
         } catch (IOException e) {
             e.printStackTrace();
             return null;
