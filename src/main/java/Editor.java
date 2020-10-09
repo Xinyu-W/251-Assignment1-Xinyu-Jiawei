@@ -12,6 +12,11 @@ public class Editor extends JFrame {
     public JTextField SearchText = new JTextField(20);
     public Editor(){
 
+        String path = ReadJson.class.getClassLoader().getResource("package.json").getPath();
+        String json = ReadJson.readJsonFile(path);
+        JSONObject jobj = JSON.parseObject(json);
+        System.out.println(jobj);
+
         DateFormat dateFormat=DateFormat.getDateTimeInstance();
         String dateTime=dateFormat.format(System.currentTimeMillis());
         this.setTitle("Text editor           "+dateTime);
