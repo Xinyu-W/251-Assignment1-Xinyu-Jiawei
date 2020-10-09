@@ -18,10 +18,10 @@ public class Open extends AbstractAction{
 
     public void actionPerformed(ActionEvent e) {
 
-        int i = filechooser.showOpenDialog(editor);            //显示打开文件对话框
-        if (i == JFileChooser.APPROVE_OPTION)            //点击对话框打开选项
+        int i = filechooser.showOpenDialog(editor);
+        if (i == JFileChooser.APPROVE_OPTION)
         {
-            File f = filechooser.getSelectedFile();    //得到选择的文件
+            File f = filechooser.getSelectedFile();
             try {
                 InputStream is = new FileInputStream(f);
                 textPane.read(is, "d");

@@ -23,8 +23,7 @@ public class ExportPDF extends AbstractAction {
     }
 
     public void actionPerformed(ActionEvent e) {
-        JTextPane edit_text_area;
-        JScrollPane scroll_bar;
+
         File file = null;
         int chooser = filechooser.showSaveDialog(null);
         if (chooser == JFileChooser.APPROVE_OPTION) {
@@ -43,7 +42,7 @@ public class ExportPDF extends AbstractAction {
             documentException.printStackTrace();
         }
         document.open();
-        //方法一：使用Windows系统字体(TrueType)
+//font
         BaseFont baseFont = null;
         try {
             baseFont = BaseFont.createFont(FONT, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);

@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
-import static com.sun.deploy.uitoolkit.ToolkitStore.dispose;
+
 
 public class Exit extends AbstractAction {
 private Editor editor;
