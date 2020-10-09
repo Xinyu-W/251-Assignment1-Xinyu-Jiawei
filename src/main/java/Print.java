@@ -14,7 +14,7 @@ import java.io.InputStream;
 public class Print extends AbstractAction {
     private JFileChooser filechooser;
     private Editor editor;
-    public Print(JFileChooser filechooser,Editor editor){
+    public Print(Editor editor){
         super("Print");
         this.filechooser = new JFileChooser();
         this.editor=editor;

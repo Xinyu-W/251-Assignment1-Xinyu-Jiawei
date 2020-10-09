@@ -30,7 +30,7 @@ public class Editor extends JFrame {
             menuFile.add(new JMenuItem(new New(textPane,fileChooser,Editor.this)));
             menuFile.add(new JMenuItem(new Open(textPane,fileChooser,Editor.this)));
             menuFile.add(new JMenuItem(new Save(textPane,fileChooser)));
-            menuFile.add(new JMenuItem(new Print(fileChooser,Editor.this)));
+            menuFile.add(new JMenuItem(new Print(Editor.this)));
             menuFile.add(new JMenuItem(new ExportPDF(textPane,jScrollPane)));
             menuFile.add(new JMenuItem(new Exit(Editor.this)));
 

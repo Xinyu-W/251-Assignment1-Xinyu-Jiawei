@@ -16,11 +16,7 @@
     <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="10/8 commit xinyu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExportPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExportPDF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/New.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/New.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Open.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Open.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Save.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +34,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="NewXinyu19029920" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
