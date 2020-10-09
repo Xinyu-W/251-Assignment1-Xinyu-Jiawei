@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="251assignment1" />
+        <module name="251-Assignment1-Xinyu-Jiawei" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
