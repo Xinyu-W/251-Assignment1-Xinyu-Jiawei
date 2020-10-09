@@ -23,8 +23,7 @@ public class ExportPDF extends AbstractAction {
     }
 
     public void actionPerformed(ActionEvent e) {
-        JTextPane edit_text_area;
-        JScrollPane scroll_bar;
+
         File file = null;
         int chooser = filechooser.showSaveDialog(null);
         if (chooser == JFileChooser.APPROVE_OPTION) {
