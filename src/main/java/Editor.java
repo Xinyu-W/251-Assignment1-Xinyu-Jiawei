@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.text.DateFormat;
-
+import com.alibaba.fastjson.*;
 
 public class Editor extends JFrame {
 
@@ -9,6 +9,9 @@ public class Editor extends JFrame {
     public JFileChooser fileChooser = new JFileChooser();
     public JScrollPane jScrollPane=new JScrollPane();
     public JTextField SearchText = new JTextField(20);
+    String path = ReadJson.class.getClassLoader().getResource("TestJson.json").getPath();
+    String json = ReadJson.readJsonFile(path);
+    JSONObject jsonObject = JSON.parseObject(json);
     public Editor(){
 
         DateFormat dateFormat=DateFormat.getDateTimeInstance();
@@ -18,7 +21,7 @@ public class Editor extends JFrame {
         setJMenuBar(createJMenuBar());
         Container container=getContentPane();
         container.add(textPane,BorderLayout.CENTER);
-        setSize(700,700);
+        setSize(Integer.parseInt(jsonObject.get("width").toString()),Integer.parseInt(jsonObject.get("height").toString()));
         setVisible(true);
         }
 
@@ -41,13 +44,15 @@ public class Editor extends JFrame {
             menuBar.add(menuFile);
             menuBar.add(menuEdior);
             menuBar.add(menuView);
-            menuAbout.add(new JMenuItem(new Author(Editor.this)));
+            menuAbout.add(new JMenuItem(new Author(Editor.this,jsonObject)));
             menuBar.add(menuAbout);
             return  menuBar;
         }
 
     public static void main(String[] args) {
+
         new Editor();
+
     }
 
     }

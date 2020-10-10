@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9823cecd-f559-40ad-aa71-a1b7c7610310" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExportPDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExportPDF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/New.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/New.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Open.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Open.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Save.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ifpkkXflob0DsVjQuJ6j7GCm2r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.project" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Editor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Editor" />
+      <module name="251assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Editor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9823cecd-f559-40ad-aa71-a1b7c7610310" name="Default Changelist" comment="" />
+      <created>1602308648529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602308648529</updated>
+      <workItem from="1602308649656" duration="3265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="379" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602309092006">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="379" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.104.1304.768/0.0.1858.1080@0.0.1858.1080" timestamp="1602309092006" />
+    <state x="647" y="236" key="FileChooserDialogImpl" timestamp="1602308858651">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="647" y="236" key="FileChooserDialogImpl/1920.104.1304.768/0.0.1858.1080@0.0.1858.1080" timestamp="1602308858651" />
+    <state x="350" y="0" width="1296" height="1040" key="SettingsEditor" timestamp="1602311763197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="350" y="22" key="SettingsEditor/1920.104.1304.768/0.0.1858.1080@0.0.1858.1080" timestamp="1602311620122" />
+    <state x="350" y="0" width="1296" height="1040" key="SettingsEditor/1920.466.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602311763197" />
+  </component>
+</project>
