@@ -13,7 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="add PMD metrics">
+    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="add reportPMD.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -363,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602308637537</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add reportPMD.html">
+      <created>1602309095628</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1602309095628</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -389,7 +398,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improve the functioin of &quot;NewAction&quot;" />
     <MESSAGE value="make the function name become more concise,and add the Save action." />
     <MESSAGE value="Finished the save function." />
     <MESSAGE value="Make some little" />
@@ -414,7 +422,8 @@
     <MESSAGE value="add json" />
     <MESSAGE value="add some test and change the Editor" />
     <MESSAGE value="add PMD metrics" />
-    <option name="LAST_COMMIT_MESSAGE" value="add PMD metrics" />
+    <MESSAGE value="add reportPMD.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reportPMD.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1602302795057">
@@ -449,22 +458,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="700" y="117" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602221852862" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1602307843311">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1602309942245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602307843311" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1602307843310">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602309942245" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1602309942245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602307843310" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1602307843310">
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602309942245" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1602309942245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602307843310" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1602307843311">
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602309942245" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1602309942245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602307843311" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602309942245" />
     <state x="296" y="135" key="Maven.ArtifactSearchDialog" timestamp="1602218593879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -481,10 +490,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="862" y="100" width="581" height="630" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601795334382" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602308643741">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602309098310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602308643741" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602309098310" />
     <state x="614" y="382" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602211209197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
