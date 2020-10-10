@@ -13,11 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="little change">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/TestJson.json" afterDir="false" />
+    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="add json file">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OpenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReadJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SaveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReadJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/TestJson.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestJson.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -35,7 +39,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="NewXinyu19029920" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,11 +76,21 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenProject" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -87,6 +101,25 @@
     <configuration name="Editor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Editor" />
       <module name="251assignment1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadJsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="251assignment1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadJsonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadJsonTest.readJsonFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="251assignment1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadJsonTest" />
+      <option name="METHOD_NAME" value="readJsonFile" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,7 +150,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Editor" />
-        <item itemvalue="Application.Editor" />
+        <item itemvalue="JUnit.ReadJsonTest.readJsonFile" />
+        <item itemvalue="JUnit.ReadJsonTest" />
         <item itemvalue="Application.Editor" />
         <item itemvalue="Application.Editor" />
       </list>
@@ -375,10 +409,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add json" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1602253110989">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1602302795057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602253110989" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602302795057" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601890165242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -407,22 +441,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="700" y="117" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602221852862" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1602253765243">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1602307843311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602253765243" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1602253765242">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602307843311" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1602307843310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602253765242" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1602253765242">
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602307843310" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1602307843310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602253765242" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1602253765242">
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602307843310" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1602307843311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602253765242" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602307843311" />
     <state x="296" y="135" key="Maven.ArtifactSearchDialog" timestamp="1602218593879">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -439,10 +473,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="862" y="100" width="581" height="630" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601795334382" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602218763674">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602255031705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602218763674" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602255031705" />
     <state x="614" y="382" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602211209197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -459,6 +493,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="573" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601789522941" />
+    <state x="540" y="216" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602305983896">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="216" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1602305983896" />
     <state x="306" y="148" width="923" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602253578388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
