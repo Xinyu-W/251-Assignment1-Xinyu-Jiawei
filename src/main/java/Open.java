@@ -1,8 +1,6 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
+import java.io.*;
 
 public class Open extends AbstractAction{
     private JTextPane textPane;
@@ -22,9 +20,14 @@ public class Open extends AbstractAction{
         if (i == JFileChooser.APPROVE_OPTION)
         {
             File f = filechooser.getSelectedFile();
+
             try {
-                InputStream is = new FileInputStream(f);
-                textPane.read(is, "d");
+                InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream(f));
+                BufferedReader reader = new BufferedReader(inputStreamReader);
+                String readline = "";
+                while ((readline = reader.readLine())!=null){
+                    textPane.setText(textPane.getText()+readline+"\n");
+                }
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
