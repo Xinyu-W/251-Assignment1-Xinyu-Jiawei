@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9823cecd-f559-40ad-aa71-a1b7c7610310" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ExportPDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExportPDF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/New.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/New.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Open.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Open.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Print.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Save.class" afterDir="false" />
-    </list>
+    <list default="true" id="9823cecd-f559-40ad-aa71-a1b7c7610310" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602308648529</updated>
-      <workItem from="1602308649656" duration="3265000" />
+      <workItem from="1602308649656" duration="3583000" />
     </task>
     <servers />
   </component>
@@ -106,6 +96,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="647" y="236" key="FileChooserDialogImpl/1920.104.1304.768/0.0.1858.1080@0.0.1858.1080" timestamp="1602308858651" />
+    <state x="343" y="111" key="Maven.ArtifactSearchDialog" timestamp="1602315953332">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="343" y="111" key="Maven.ArtifactSearchDialog/1920.438.1304.768/0.0.1858.1080@0.0.1858.1080" timestamp="1602315953332" />
     <state x="350" y="0" width="1296" height="1040" key="SettingsEditor" timestamp="1602311763197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
