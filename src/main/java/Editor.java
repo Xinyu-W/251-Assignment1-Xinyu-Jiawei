@@ -9,8 +9,9 @@ public class Editor extends JFrame {
     public JFileChooser fileChooser = new JFileChooser();
     public JScrollPane jScrollPane=new JScrollPane();
     public JTextField SearchText = new JTextField(20);
-    String path = ReadJson.class.getClassLoader().getResource("TestJson.json").getPath();
-    String json = ReadJson.readJsonFile(path);
+
+    String file = ReadJson.class.getClassLoader().getResource("TestJson.json").getPath();
+    String json = ReadJson.readJsonFile(file);
     JSONObject jsonObject = JSON.parseObject(json);
     public Editor(){
 
