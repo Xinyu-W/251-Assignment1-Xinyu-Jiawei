@@ -1,0 +1,17 @@
+Index: src/main/java/Editor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import javax.swing.*;\r\nimport java.awt.*;\r\nimport java.text.DateFormat;\r\nimport com.alibaba.fastjson.*;\r\n\r\npublic class Editor extends JFrame {\r\n\r\n    public  JTextPane textPane = new JTextPane();\r\n    public JFileChooser fileChooser = new JFileChooser();\r\n    public JScrollPane jScrollPane=new JScrollPane();\r\n    public JTextField SearchText = new JTextField(20);\r\n    String path = ReadJson.class.getClassLoader().getResource(\"TestJson.json\").getPath();\r\n    String json = ReadJson.readJsonFile(path);\r\n    JSONObject jsonObject = JSON.parseObject(json);\r\n    public Editor(){\r\n\r\n        DateFormat dateFormat=DateFormat.getDateTimeInstance();\r\n        String dateTime=dateFormat.format(System.currentTimeMillis());\r\n        this.setTitle(\"Text editor           \"+dateTime);\r\n\r\n        setJMenuBar(createJMenuBar());\r\n        Container container=getContentPane();\r\n        container.add(textPane,BorderLayout.CENTER);\r\n        setSize(Integer.parseInt(jsonObject.get(\"width\").toString()),Integer.parseInt(jsonObject.get(\"height\").toString()));\r\n        setVisible(true);\r\n        }\r\n\r\n        private JMenuBar createJMenuBar(){\r\n            JMenuBar menuBar=new JMenuBar();\r\n            JMenu menuFile=new JMenu(\"File\");\r\n            JMenu menuView=new JMenu(\"View\");\r\n            JMenu menuEdior=new JMenu(\"Editor\");\r\n            JMenu menuAbout = new JMenu(\"About\");\r\n            menuFile.add(new JMenuItem(new New(textPane,fileChooser,Editor.this)));\r\n            menuFile.add(new JMenuItem(new Open(textPane,fileChooser,Editor.this)));\r\n            menuFile.add(new JMenuItem(new Save(textPane,fileChooser)));\r\n            menuFile.add(new JMenuItem(new Print(Editor.this)));\r\n            menuFile.add(new JMenuItem(new ExportPDF(textPane,jScrollPane)));\r\n            menuFile.add(new JMenuItem(new Exit(Editor.this)));\r\n            menuView.add(new JMenuItem(new Search(textPane,Editor.this)));\r\n            menuEdior.add(new JMenuItem(new Copy(textPane,Editor.this)));\r\n            menuEdior.add(new JMenuItem(new Cut(textPane,Editor.this)));\r\n            menuEdior.add(new JMenuItem(new Paste(textPane,Editor.this)));\r\n            menuBar.add(menuFile);\r\n            menuBar.add(menuEdior);\r\n            menuBar.add(menuView);\r\n            menuAbout.add(new JMenuItem(new Author(Editor.this,jsonObject)));\r\n            menuBar.add(menuAbout);\r\n            return  menuBar;\r\n        }\r\n\r\n    public static void main(String[] args) {\r\n\r\n        new Editor();\r\n\r\n    }\r\n\r\n    }\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/Editor.java	(revision 45404fb8c0751de5f5143415d2863c2b1e10400b)
++++ src/main/java/Editor.java	(date 1602316928614)
+@@ -53,6 +53,7 @@
+ 
+         new Editor();
+ 
++
+     }
+ 
+     }

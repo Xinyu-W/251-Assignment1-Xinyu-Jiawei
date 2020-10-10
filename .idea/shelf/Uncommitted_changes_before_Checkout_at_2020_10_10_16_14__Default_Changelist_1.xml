@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1" date="1602317694666" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2020/10/10 16:14 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/ExportPDF.class" />
+    <option name="AFTER_PATH" value="target/classes/ExportPDF.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1/ExportPDF.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Print.class" />
+    <option name="AFTER_PATH" value="target/classes/Print.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1/Print.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Search$2.class" />
+    <option name="AFTER_PATH" value="target/classes/Search$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1/Search$2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Search.class" />
+    <option name="AFTER_PATH" value="target/classes/Search.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1/Search.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Author.class" />
+    <option name="AFTER_PATH" value="target/classes/Author.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1/Author.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Editor.class" />
+    <option name="AFTER_PATH" value="target/classes/Editor.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1/Editor.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Search$1.class" />
+    <option name="AFTER_PATH" value="target/classes/Search$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_10_10_16_14_[Default_Changelist]1/Search$1.class" />
+  </binary>
+</changelist>
