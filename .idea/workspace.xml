@@ -13,10 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="add reportPMD.html">
+    <list default="true" id="9c2b6461-d1e3-40d4-9a54-187dfb73b364" name="Default Changelist" comment="add json file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Editor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
