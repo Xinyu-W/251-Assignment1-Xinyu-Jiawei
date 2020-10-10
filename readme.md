@@ -6,7 +6,17 @@
 
 >  We think cooperation is more important than heroism.
 
+Our github address:https://github.com/Xinyu-W/251-Assignment1-Xinyu-Jiawei
 
+### How to run
+
+running Editor.java is acceptable
+
+### Comment IDs
+
+Xinyu Wang:e92f68f,9050aa8,b50fcf9,0a7fa55
+
+Jiawei Feng:45404fb,0a259b2
 
 ### Division of labor:
 

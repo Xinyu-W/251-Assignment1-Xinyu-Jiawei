@@ -13,12 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9823cecd-f559-40ad-aa71-a1b7c7610310" name="Default Changelist" comment="fix the bug of Search">
+    <list default="true" id="9823cecd-f559-40ad-aa71-a1b7c7610310" name="Default Changelist" comment="finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OpenTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReadJsonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SaveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602323935179</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished">
+      <created>1602327490113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602327490113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix the bug of Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the bug of Search" />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602309092006">
@@ -158,32 +163,40 @@
     </state>
     <state x="535" y="180" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602325993404" />
     <state x="647" y="236" key="FileChooserDialogImpl/1920.104.1304.768/0.0.1858.1080@0.0.1858.1080" timestamp="1602308858651" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602326439406">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602327739419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602326439406" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602326439406">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602327739419" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602327739419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602326439406" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602326439406">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602327739419" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602327739419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602326439406" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602326439406">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602327739419" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602327739419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602326439406" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602327739419" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1602322355045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1602322355045" />
+    <state x="403" y="173" key="MultipleFileMergeDialog" timestamp="1602327521906">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1602327521906" />
     <state x="280" y="0" width="1296" height="1040" key="SettingsEditor" timestamp="1602326127355">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="280" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602326127355" />
     <state x="350" y="22" key="SettingsEditor/1920.104.1304.768/0.0.1858.1080@0.0.1858.1080" timestamp="1602311620122" />
     <state x="350" y="0" width="1296" height="1040" key="SettingsEditor/1920.466.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602311763197" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602327524645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602327524645" />
     <state x="540" y="216" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602324025338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
