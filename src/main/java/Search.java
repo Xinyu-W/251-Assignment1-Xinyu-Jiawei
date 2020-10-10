@@ -41,7 +41,7 @@ public class Search extends AbstractAction
             public void actionPerformed(ActionEvent e) {
                 int k = 0, m = 0;
                 final String str1, str2, str3, str4, strA, strB;
-                str1 = textPane.getText();
+                str1 = textPane.getText().replaceAll("\r", "");
                 str2 = findText.getText();
                 str3 = str1.toUpperCase();
                 str4 = str2.toUpperCase();
@@ -67,7 +67,7 @@ public class Search extends AbstractAction
                     }
                 } else if (downButton.isSelected()) {
                     if (textPane.getSelectedText() == null)
-                        k = strA.indexOf(strB, textPane.getCaretPosition() + 1);
+                        k = strA.indexOf(strB, 1);
                     else
                         k = strA.indexOf(strB, textPane.getCaretPosition() - findText.getText().length() + 1);
                     if (k > -1) {   //String strData=strA.subString(k,strB.getText().length()+1);
