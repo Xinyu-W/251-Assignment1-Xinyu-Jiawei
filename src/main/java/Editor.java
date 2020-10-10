@@ -4,6 +4,7 @@ import java.text.DateFormat;
 
 
 public class Editor extends JFrame {
+
     public  JTextPane textPane = new JTextPane();
     public JFileChooser fileChooser = new JFileChooser();
     public JScrollPane jScrollPane=new JScrollPane();
