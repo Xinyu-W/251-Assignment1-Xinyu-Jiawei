@@ -6,9 +6,8 @@ import com.alibaba.fastjson.*;
 
 
 public class Editor extends JFrame {
-    String path = ReadJson.class.getClassLoader().getResource("TestJson.json").getPath();
-    String json = ReadJson.readJsonFile(path);
-    JSONObject jobj = JSON.parseObject(json);
+
+
     public  JTextPane textPane = new JTextPane();
     public JFileChooser fileChooser = new JFileChooser();
     public JScrollPane jScrollPane=new JScrollPane();
@@ -50,6 +49,10 @@ public class Editor extends JFrame {
         }
 
     public static void main(String[] args) {
+        String path = ReadJson.class.getClassLoader().getResource("TestJson.json").getPath();
+        System.out.println(path);
+        //        String json = ReadJson.readJsonFile(path);
+//        JSONObject jobj = JSON.parseObject(json);
         new Editor();
 
     }
